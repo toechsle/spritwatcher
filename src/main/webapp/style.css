@@ -1,0 +1,237 @@
+#snapshot_div {   
+    height: 5pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#snapshot {
+    margin: auto;
+    max-width: 42%;
+}
+
+#chartContainer {
+    height: 38pc;
+}
+
+#chart_div {
+    position: relative;
+    text-align: center;
+    height: 32pc; 
+    background-image: url('dice.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+    background-size: cover;
+    box-shadow: inset 15px 0 15px 0px #000000;
+    display: flex;
+    justify-content: center;
+}
+
+#zufall {   
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+#zufall2 {
+   bottom: 0;
+   color: white;
+   text-align: center;
+   margin-bottom: 2em;
+   font-size: 2em;
+   display: inline-block;  
+}
+
+#button_div {
+    margin-top: 2px; 
+    height: 6pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iw-container {
+    max-width: 300px;  
+}
+
+.iw-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#times { 
+    margin-top: 15px; 
+}
+
+#priceInfo {
+       
+}
+         
+.iw {
+     
+ }
+ 
+#iw-container td {
+    padding: 2px 1em 2px 1em;  
+}
+ 
+#snapshotTextContainer {
+    visibility: hidden;
+    height: 1pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#snapshotText {
+    margin: auto;
+    text-align: center;
+}
+
+#gap {
+    height: 3pc;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-inverse {
+    background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.wow {
+    position:relative; 
+}
+
+.wow img {
+    position:relative;
+    top:0;
+    left:0;
+    z-index:1
+}
+
+.overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index:2;
+    opacity:0;
+    color: white;
+    font-size: 16px;
+    font-size: 1.5vw;
+}
+
+.wow .overlay {
+    opacity:1;
+    width:100%;
+    height:100%; 
+    padding:5px;
+    display:block;
+}
+
+.infotext {
+    margin: 2em;
+    padding: 1em;
+    display: none;
+}
+
+.infotext2 { 
+    margin: 2em;
+    padding: 1em;
+}
+
+#radius {    
+   height: 4pc;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;    
+}
+
+#radiusChoice {   
+    max-width: 20em;
+}
+
+#suchradiusTextContainer {
+    height: 4pc;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#billigst {    
+    height: 4pc;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#billigstChoice {   
+    max-width: 20em;
+}
+
+#billigstTextContainer {
+    height: 4pc;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;     
+}
+
+#suchradiusText {
+    text-align: center;
+}
+
+#billigstText {   
+    text-align: center;
+}
+
+.wow2 {
+    position:relative;
+}
+
+.wow2 img {
+    position:relative;
+    top:0;
+    left:0;
+    z-index:1
+}
+
+.overlay2 {
+    color: black;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index:2;
+    opacity:0;
+    font-size: 16px;
+    font-size: 1.5vw;
+}
+
+.wow2 > .overlay2 {
+    opacity:1;
+    width:100%;
+    height:100%; 
+    padding:5px;
+    display:block;
+    background:rgba(255, 255, 255, 0.4)
+}
+
+#credit {
+    font-size: 0.8em;
+    bottom: 0;  
+}
